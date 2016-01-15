@@ -1,0 +1,276 @@
+body{
+background: black;
+background-position: fixed;
+
+}
+.heading{
+font-family: 'Montserrat',Helvetica,sans-serif;	
+color: white;
+font-size: 2em;
+margin-left: 60px;
+margin-right: 300px;
+margin-top: 400px;
+float: left;
+
+}
+input[type="text"]{
+	margin-left: 10px;
+	background: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	height: 35px;
+	width: 300px;
+	color: white;
+	font-family: 'Montserrat',sans-serif;
+	font-size: 30px;
+	
+  
+}
+input[type="text"]:focus{
+outline: none;
+
+}
+
+.headinglogo{
+	
+	width: 400px;
+	height: 400px;
+	float: right;
+	margin-right: 100px;
+	margin-top: 100px;
+}
+.events{
+	width: 100%;
+	height: 100%;
+	margin-top: 800px;
+	font-family: 'Montserrat',sans-serif;
+}
+.tile{
+	width: 500px;
+	height: 400px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 170px;
+	margin-bottom: 100px;
+  background-color: black;
+}
+.tiletext{
+	width: 400px;
+	float: right;
+	margin-right: 200px;
+	margin-top: 170px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 100px;
+    background-color: black;
+}
+.eventhead{
+	width: 100%;
+	height: 800px;
+	background: url(http://philippehong.com/img/break2-bg.jpg);
+	background-position: fixed;
+	color: #fff;
+  font-family: 'Montserrat',sans-serif;
+}
+.about{
+	width: 100%;
+	height: 800px;
+	background: #fff;
+	color: #444;
+	background-position: fixed;
+  font-family: 'Montserrat',sans-serif;
+}
+.members{
+  font-family: 'Montserrat',sans-serif;
+	width: 100%;
+	height: 800px;
+	background: black;
+	color: #fff;
+	background-position: fixed;
+}
+.brochure{
+  width: 2000px;
+  height: 200px;
+  background: black;
+  float: center;
+  color: #fff;
+  margin-top: 800px;
+}
+.super{
+	font-family: 'Montserrat',sans-serif;
+	width: 100%;
+	height: 800px;
+	background: black;
+	color: #fff;
+	background-position: fixed;
+}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+/* set global font to Open Sans */
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  background-image: url(http://benague.ca/files/pw_pattern.png);
+}
+
+/* css for title */
+
+
+.link {
+  border-bottom: 2px dotted #55acee;
+  text-decoration: none;
+  color: #55acee;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+}
+
+.link:hover {
+  color: #2ecc71;
+  border-bottom: 2px dotted #2ecc71;
+}
+
+/* css for the shiny buttons */
+.btn {
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  display: inline-block;
+}
+
+.btn:hover {
+  cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
+}
+.blue {
+  color: #55acee;
+  border: 2px #55acee solid;
+}
+
+.blue:hover {
+  background-color: #55acee;
+  color: #fff
+}
+
+.green {
+  color: #2ecc71;
+  border: 2px #2ecc71 solid;
+}
+
+.green:hover {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+.red {
+  color: #e74c3c;
+  border: 2px #e74c3c solid;
+}
+
+.red:hover {
+  color: #fff;
+  background-color: #e74c3c;
+}
+
+.purple {
+  color: #9b59b6;
+  border: 2px #9b59b6 solid;
+}
+
+.purple:hover {
+  color: #fff;
+  background-color: #9b59b6;
+}
+
+.orange {
+  color: #e67e22;
+  border: 2px #e67e22 solid;
+}
+
+.orange:hover {
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.yellow {
+  color: #f1c40f;
+  border: 2px #f1c40f solid;
+}
+
+.yellow:hover {
+  color: #fff;
+  background-color: #f1c40f;
+}
+
+.buttons {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: ;
+  vertical-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  text-align: right;
+  box-shadow: 2px 1px 1px #EEEEEE;
+
+ }
+.nav li {
+  font-family: 'Oswald', sans-serif;
+   
+  height: 20px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  border-bottom: px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #666;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+color: black;
+}
+
+
+ 
+.nav a.active {
+  color: black;
+
+
+
+}
+
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 10px;
+    line-height: 50px;
+    font-size: 1.8em;
+    font-family: 'Montserrat',sans-serif;
+    
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+/* copyright stuffs.. *
