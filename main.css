@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+
+*{
+	padding:0;
+	margin:0;
+}
+
+
+a{
+	text-decoration: none;
+	color:#666;
+}
+	a:hover{
+		color:#999;
+	}
+p{
+	line-height: 2em;
+	margin:0 0 20px;
+	text-align: center;
+}
+
+.wrap{
+	max-width: 600px;
+	margin:150px auto;
+}
+
+.type-wrap{
+	margin:10px auto;
+	padding:20px;
+color: #fff;
+font-family: 'Montserrat',sans-serif;
+
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.links{
+	margin:20px 0;
+	font-size: 0.75em;
+	text-align: center;
+}

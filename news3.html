@@ -1,0 +1,129 @@
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,300italic,300,100' rel='stylesheet' type='text/css'>
+    <title>Digital Teen Indians</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<script src="jquery.spinner.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700,400' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <script src="animated-intro-section/js/modernizr.js"></script> <!-- Modernizr -->
+
+<!-- MAP -->
+<style>
+        #map-container {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        #map-container p {
+            z-index: 999;position: absolute;margin: auto; text-align: center; width: 100%; max-height: 100%; font-size: 30px; cursor: pointer; cursor: hand; top: 45%;
+        }
+        #map-container #overlay1 p {
+            font-size: 20px;
+            top: 10%;
+        }
+        #map {
+        width: 100%;
+        height: 400px;
+        }    
+        #overlay    {  
+        width  : 100%;
+        height : 100%;
+        background: rgba(0,0,0,0.7);
+        position: absolute;
+        top: 0px; 
+        left: 0px; 
+        z-index: 99;
+       }
+       #overlay1    {
+        display: none;  
+        width  : 100%;
+        height : 50px;
+        background: rgba(0,0,0,0.7);
+        position: absolute;
+        bottom: 0px; 
+        left: 0px; 
+        z-index: 99;
+       }
+</style>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+    var myLatLng = {lat: 28.6471849, lng: 77.364564};
+      function initialize() {
+
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(28.6471849, 77.364564),
+          zoom: 17,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+        
+        var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Cambridge School, Indirapuram'
+      });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+        
+
+    </script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="countdown/style.css">
+
+<script type="text/javascript" src="scroll/npm.js"></script>
+<script type="text/javascript" src="scroll/smoothscroll.js"></script>
+<script type="text/javascript" src="scroll/typed.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+<body bgcolor="white">
+
+    <div class="register" style="height:300px;">
+    
+    <center>&nbsp;&nbsp;&nbsp;&nbsp;</center><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<center>At 10, meet the youngest CEOs of India! &nbsp;&nbsp;&nbsp;&nbsp;</center>
+
+<br>
+    </div>
+    <div style="width:100%;font-weight:bold;color:#444;background:#fff;font-size:1.5em;font-family:'Montserrat';height:800px;">
+</center><center><a class="btn orange" href="index.html#events">Back</a><br>
+<img src="appgo.jpg" width="200" height="150" style="border-radius:10px;"></center>
+
+   <p style="margin-left:200px;margin-right:150px;text-align:left;"> <br>
+<br>
+Shravan (10) and Sanjay Kumaran (12), two brothers from Chennai have created mobile phone applications that have witnessed over 10,000 downloads across the world already.
+<br>
+Two tech savvy brothers Shravan and Sanjay Kumaran from Chennai have not yet completed school but are already co-founders and President (Shravan)/CEO (Sanjay) of GoDimensions, a mobile applications firm.
+
+Studying in sixth and eighth grades, the Kumaran brothers have created mobile phone applications that have witnessed over 10,000 downloads across the world already.
+<br>
+The duo has already designed four applications for the Apple store that have been downloaded in over 20 countries.
+<br>
+According to their web site GoDimensions.com, they create applications 'primarily in the area of education, games, lifestyle and convenience.'
+
+Some of their popular applications include Alphabets Board, Color Pallette and Catch Me Cop among others.
+
+Watch the video where the prodigies tell us more about their vision and future plans.
+
+</p>
+<center>
+    <a class="btn green" href="http://timesofindia.indiatimes.com/tech/tech-news/What-happened-after-Facebook-COO-Sheryl-Sandberg-praised-Indian-teens-app/articleshow/48801722.cms">Read More</a>
+    </div>
